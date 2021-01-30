@@ -1,0 +1,121 @@
+.pokemon {
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 15px;
+}
+
+.pokemon__image {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 15px;
+  background: #eeebeb;
+}
+
+.pokemon__image:hover {
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.pokemon__image.grass:hover {
+  background: $grass;
+}
+
+.pokemon__image.poison:hover {
+  background: $poison;
+}
+
+.pokemon__image.fire:hover {
+  background: $fire;
+}
+
+.pokemon__image.flying:hover {
+  background: $flying;
+}
+
+.pokemon__image.water:hover {
+  background: $water;
+}
+
+.pokemon__image.bug:hover {
+  background: $bug;
+}
+
+.pokemon__image.normal:hover {
+  background: $normal;
+}
+
+.pokemon__image.electric:hover {
+  background: $electric;
+}
+
+.pokemon__image.ground:hover {
+  background: $ground;
+}
+
+.pokemon__image.fairy:hover {
+  background: $fairy;
+}
+
+.pokemon__image.fighting:hover {
+  background: $fighting;
+}
+
+.pokemon__image.psychic:hover {
+  background: $psychic;
+}
+
+.pokemon__image.rock:hover {
+  background: $rock;
+}
+
+.pokemon__image.steel:hover {
+  background: $steel;
+}
+
+.pokemon__image.ghost:hover {
+  background: $ghost;
+}
+
+.pokemon__image.ice:hover {
+  background: $ice;
+}
+
+.pokemon__image.dragon:hover {
+  background: $dragon;
+}
+
+.pokemon__id {
+  font-size: 15px;
+  margin: 0;
+}
+
+.pokemon__name {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 700px) {
+  .pokemon {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 15px;
+  }
+  
+  .pokemon__image {
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 15px;
+    background: #eeebeb;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (min-height: 1000px) {
+  .pokemon__image {
+    height: 200px;
+    width: 200px;
+  }
+}

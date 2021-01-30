@@ -1,0 +1,221 @@
+.modal {
+  bottom: 100px;
+  margin: 0;
+  display: flex;
+  color: $off-white;
+}
+
+.modal__image.flying {
+  background: $flying;
+}
+
+.modal__image.water {
+  background: $water;
+}
+
+.modal__image.grass {
+  background: $grass;
+}
+
+.modal__image.poison {
+  background: $poison;
+}
+
+.modal__image.fire {
+  background: $fire;
+}
+
+.modal__image.flying {
+  background: $flying;
+}
+
+.modal__image.water {
+  background: $water;
+}
+
+.modal__image.bug {
+  background: $bug;
+}
+
+.modal__image.normal {
+  background: $normal;
+}
+
+.modal__image.electric {
+  background: $electric;
+}
+
+.modal__image.ground {
+  background: $ground;
+}
+
+.modal__image.fairy {
+  background: $fairy;
+}
+
+.modal__image.fighting {
+  background: $fighting;
+}
+
+.modal__image.psychic {
+  background: $psychic;
+}
+
+.modal__image.rock {
+  background: $rock;
+}
+
+.modal__image.steel {
+  background: $steel;
+}
+
+.modal__image.ghost {
+  background: $ghost;
+}
+
+.modal__image.ice {
+  background: $ice;
+}
+
+.modal__image.dragon {
+  background: $dragon;
+}
+
+.modal__display-information {
+  text-align: center;
+  flex-grow: 1;
+  background: $off-black;
+}
+
+.types {
+  padding: 0 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 15px;
+}
+
+.types.flying {
+  background: $flying;
+}
+
+.types.water {
+  background: $water;
+}
+
+.types.grass {
+  background: $grass;
+}
+
+.types.poison {
+  background: $poison;
+}
+
+.types.fire {
+  background: $fire;
+}
+
+.types.flying {
+  background: $flying;
+}
+
+.types.water {
+  background: $water;
+}
+
+.types.bug {
+  background: $bug;
+}
+
+.types.normal {
+  background: $normal;
+}
+
+.types.electric {
+  background: $electric;
+}
+
+.types.ground {
+  background: $ground;
+}
+
+.types.fairy {
+  background: $fairy;
+}
+
+.types.fighting {
+  background: $fighting;
+}
+
+.types.psychic {
+  background: $psychic;
+}
+
+.types.rock {
+  background: $rock;
+}
+
+.types.steel {
+  background: $steel;
+}
+
+.types.ghost {
+  background: $ghost;
+}
+
+.types.ice {
+  background: $ice;
+}
+
+.types.dragon {
+  background: $dragon;
+}
+
+
+.display-information__weight-and-height {
+  display: flex;
+  margin: 20px;
+}
+
+.weight-and-height__height {
+  flex-basis: 50%;;
+}
+
+.weight-and-height__weight {
+  flex-basis: 50%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 50px 100px 50px;
+}
+
+
+//ul
+.stats__lists {
+  list-style-type: none;
+  padding: 0;
+  width: 100px;
+}
+
+.stats__lists li {
+  width: 100%;
+  height: 15px;
+  margin-top: 2px;
+}
+
+.darken {
+  background: #30a7d7;
+}
+
+.no-darken {
+  background: white;
+}
+
+.modal-close-button {
+  float: right;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+
+}

@@ -1,0 +1,38 @@
+.search {
+  height: 50px;
+  text-align: right;
+  margin-top: 5px;
+  padding-right: 10px;
+}
+
+.search input {
+  width: 60%;
+}
+
+.search img {
+  height: 20px;
+  width: 20px;
+}
+
+.search__error {
+  margin-top: 2px;
+  padding: 0px;
+  color: red;
+  margin-right: 50px;
+}
+
+@media only screen and (min-width: 700px) {
+  .search form {
+    margin-right: 50px;
+  }
+
+  .search__error {
+    margin-right: 60px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .search {
+    padding-right: 10%;
+  }
+}

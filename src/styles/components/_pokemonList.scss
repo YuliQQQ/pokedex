@@ -1,0 +1,29 @@
+.pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.load-more {
+  width: 100%;
+  height: 50px;
+}
+
+@media only screen and (min-width: 700px) {
+  .pokedex {
+    margin: 5% 10%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .pokedex {
+    margin: 5% 10%;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .pokedex {
+    margin: 3% 25%;
+  }
+}

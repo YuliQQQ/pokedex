@@ -1,0 +1,85 @@
+.pokemon-card {
+  padding: 0 30px;
+  margin: 15px;
+  text-align: center;
+}
+
+.pokemon-card:hover {
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.pokemon-card__image.grass:hover {
+  background: $grass;
+}
+
+.pokemon-card__image.poison:hover {
+  background: $poison;
+}
+
+.pokemon-card__image.fire:hover {
+  background: $fire;
+}
+
+.pokemon-card__image.flying:hover {
+  background: $flying;
+}
+
+.pokemon-card__image.water:hover {
+  background: $water;
+}
+
+.pokemon-card__image.bug:hover {
+  background: $bug;
+}
+
+.pokemon-card__image.normal:hover {
+  background: $normal;
+}
+
+.pokemon-card__image.electric:hover {
+  background: $electric;
+}
+
+.pokemon-card__image.ground:hover {
+  background: $ground;
+}
+
+.pokemon-card__image.fairy:hover {
+  background: $fairy;
+}
+
+.pokemon-card__image.fighting:hover {
+  background: $fighting;
+}
+
+.pokemon-card__image.psychic:hover {
+  background: $psychic;
+}
+
+.pokemon-card__image.rock:hover {
+  background: $rock;
+}
+
+.pokemon-card__image.steel:hover {
+  background: $steel;
+}
+
+.pokemon-card__image.ghost:hover {
+  background: $ghost;
+}
+
+.pokemon-card__image.ice:hover {
+  background: $ice;
+}
+
+.pokemon-card__image.dragon:hover {
+  background: $dragon;
+}
+
+.pokemon-card__image {
+  width: 150px;
+  cursor: pointer;
+  background: $off-white;
+  border-radius: 15px;
+}
