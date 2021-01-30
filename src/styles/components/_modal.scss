@@ -231,17 +231,18 @@
 }
 
 .lists {
-  border: 1px solid rgb(163, 163, 163);
+  // border: 1px solid rgb(163, 163, 163);
   padding: 0 5px;
 }
 
 .lists.darken {
   display: inline;
-  background: blue;
+  background: #3b3b3b;
 }
 
 .lists.no-darken {
   display: inline;
+  background: #e7e5e5;
 }
 
 .modal-close-button {
