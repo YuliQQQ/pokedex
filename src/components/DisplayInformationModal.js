@@ -71,11 +71,10 @@ const DisplayInformationModal = ({ pokemon, modal, handleClearPokemon }) => {
                 }
               </div>
             </div> 
+            
           </div> // className= modal
-        }
-
+        }   
         <button className="modal-close-button" onClick={handleClearPokemon}>Close</button>
-      
       </div>
     </ReactModal>
     

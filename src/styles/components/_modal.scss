@@ -284,23 +284,7 @@
   }
 }
 
-@media only screen and (min-width: 1000px) {
-  .Modal {
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    right: 20%;
-    bottom: auto;
-    background: #e7d2d2;
-    overflow-y: auto;
-  }
-
-  .selected-pokemon img {
-    height: 500px;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1300px) {
   .Modal {
     position: absolute;
     top: 10%;
@@ -312,6 +296,7 @@
   }
 
   .selected-pokemon {
+    position: relative;
     display: flex;
   }
 
@@ -319,10 +304,19 @@
     margin-left: 20px;
     margin-top: 20px;
     width: 500px;
+    height: 100%;
   }
 
   .stats {
     font-size: 20px;
     margin-left: 50px;
+  }
+
+  .modal-close-button {
+    border: 2px solid green;
+    display: inline;
+    margin: 5px;
+    float: right;
+    padding: 0;
   }
 }
