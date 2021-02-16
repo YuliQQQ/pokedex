@@ -284,12 +284,12 @@
   }
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
   .Modal {
     position: absolute;
     top: 10%;
-    left: 10%;
-    right: 10%;
+    left: 5%;
+    right: 5%;
     bottom: auto;
     background: #e7d2d2;
     overflow-y: auto;
